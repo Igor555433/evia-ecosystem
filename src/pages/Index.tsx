@@ -295,7 +295,7 @@ const ProjectsSection = () => {
           level: "",
         },
       ],
-      url: "https://neon-den5-q4vp.vercel.app",
+      url: "neon-den5-q4vp.vercel.app",
       icon: <Bot className="h-8 w-8 text-blue-400" />,
       gradient: "from-blue-500/20 to-cyan-500/20",
       borderColor: "border-blue-500/30",
@@ -882,15 +882,17 @@ const ContactSection = () => {
             <Button
               asChild
               size="lg"
-              className="bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white px-8 py-3 text-lg font-semibold border-0 shadow-xl"
+              className="w-full sm:w-auto bg-gradient-to-r from-teal-500 to-emerald-500 hover:from-teal-600 hover:to-emerald-600 text-white px-4 sm:px-8 py-3 text-sm sm:text-lg font-semibold border-0 shadow-xl"
             >
               <a
                 href="https://t.me/igorgorbulev"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2"
               >
-                Написать в Telegram: @igorgorbulev
-                <ArrowRight className="ml-2 h-5 w-5" />
+                <span className="hidden sm:inline">Написать в Telegram: @igorgorbulev</span>
+                <span className="sm:hidden">Telegram: @igorgorbulev</span>
+                <ArrowRight className="ml-2 h-4 w-4 sm:h-5 sm:w-5 flex-shrink-0" />
               </a>
             </Button>
           </div>
