@@ -295,7 +295,7 @@ const ProjectsSection = () => {
           level: "",
         },
       ],
-      url: "https://neon-den5-q4vp.vercel.app/",
+      url: "https://neon-den5-q4vp.vercel.app",
       icon: <Bot className="h-8 w-8 text-blue-400" />,
       gradient: "from-blue-500/20 to-cyan-500/20",
       borderColor: "border-blue-500/30",
