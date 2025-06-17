@@ -55,7 +55,7 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 w-full bg-gray-900/80 backdrop-blur-lg border-b border-gray-700 z-50">
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <h1 className="text-2xl font-bold text-white">
@@ -154,8 +154,8 @@ const Header = () => {
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center">
-      <div className="container mx-auto px-8">
+    <section className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center overflow-x-hidden">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           variants={staggerContainer}
           initial="initial"
@@ -364,7 +364,7 @@ const ProjectsSection = () => {
       id="projects"
       className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
     >
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -515,7 +515,7 @@ const PrinciplesSection = () => {
     {
       title: "Web3 & DAO",
       description:
-        "Прозрачность, доверие, децентрализация к��к основа новой экономики",
+        "Прозрачность, доверие, децентрализация как основа новой экономики",
       icon: <Diamond className="h-8 w-8 text-emerald-500" />,
       bgColor: "bg-gradient-to-br from-teal-50 to-emerald-100",
       cardBg: "from-teal-400/20 to-emerald-400/30",
@@ -551,7 +551,7 @@ const PrinciplesSection = () => {
 
   return (
     <section id="principles" className="py-20 bg-slate-900">
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -664,7 +664,7 @@ const TeamSection = () => {
           "linear-gradient(135deg, #2D1B69 0%, #8B5CF6 50%, #2D1B69 100%)",
       }}
     >
-      <div className="container mx-auto px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -754,8 +754,8 @@ const TeamSection = () => {
 
 const InvestmentSection = () => {
   return (
-    <section className="py-20 bg-slate-900">
-      <div className="container mx-auto px-8">
+    <section className="py-20 bg-gradient-to-br from-gray-900 via-slate-800 to-gray-900">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -847,11 +847,8 @@ const ContactSection = () => {
   ];
 
   return (
-    <section
-      id="join"
-      className="py-20 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
-    >
-      <div className="container mx-auto px-8">
+    <section className="py-20 bg-slate-900">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -905,8 +902,8 @@ const ContactSection = () => {
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-900 text-gray-400 py-12 border-t border-gray-800">
-      <div className="container mx-auto px-8">
+    <footer className="bg-gray-900 text-white py-12">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-gray-400 mb-6">
             © EVIA 2025. Осознанные технологии для будущего.
@@ -942,7 +939,7 @@ const Footer = () => {
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-slate-900">
+    <div className="min-h-screen bg-gray-900 overflow-x-hidden">
       <Header />
       <HeroSection />
       <ProjectsSection />
