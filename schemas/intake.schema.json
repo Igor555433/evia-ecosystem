@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EVIA R&D Intake",
+  "type": "object",
+  "properties": {
+    "project_name": {"type": "string"},
+    "company_name": {"type": "string"},
+    "contact_name": {"type": "string"},
+    "contact_email": {"type": "string"},
+    "goals": {"type": "string"},
+    "problem_statement": {"type": "string"},
+    "current_solution": {"type": "string"},
+    "target_audience": {"type": "string"},
+    "constraints": {"type": "string"},
+    "timeline": {"type": "string"},
+    "budget": {"type": "string"},
+    "manual_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {"type": "string", "enum": ["url", "note", "file_ref"]},
+          "value": {"type": "string"}
+        },
+        "required": ["type", "value"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["project_name", "company_name"],
+  "additionalProperties": true
+}
