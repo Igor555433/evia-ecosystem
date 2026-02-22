@@ -1,0 +1,15 @@
+{
+  "stage": "5",
+  "run_id": "8473c45c84ee",
+  "evia_cost_45_days": "150 000 ₽",
+  "llm_output": "[DRY_RUN] Stage 5\nКраткий результат без внешнего LLM.\nКонтекст содержит поля: evidence, fixation, intake, run_id.",
+  "(10) БЛОК ФИКСАЦИИ": {
+    "run_id": "8473c45c84ee",
+    "evia_cost_45_days": "150 000 ₽",
+    "evia_decision": "БЕРЁМ",
+    "project_name": "EVIA Pilot",
+    "company_name": "ACME",
+    "goals": "Сделать MVP",
+    "problem_statement": "Нет автоматизации"
+  }
+}

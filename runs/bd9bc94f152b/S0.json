@@ -1,0 +1,15 @@
+{
+  "stage": "0",
+  "status": "ГОТОВО",
+  "questions": [],
+  "intake": {
+    "project_name": "Alpha AI",
+    "company_name": "Tech Growth",
+    "goals": "100 клиентов за 60 дней",
+    "problem_statement": "Отсутствует ICP и отдел продаж"
+  },
+  "evidence": [],
+  "auto_web": "disabled",
+  "llm_output": "ГОТОВО",
+  "dry_run": false
+}

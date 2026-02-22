@@ -1,0 +1,15 @@
+{
+  "stage": "5",
+  "run_id": "bd9bc94f152b",
+  "evia_cost_45_days": "150 000 ₽",
+  "llm_output": "# БЛОК ФИКСАЦИИ\n\n- **run_id**: bd9bc94f152b\n- **evia_cost_45_days**: 150 000 ₽\n- **evia_decision**: БЕРЁМ\n- **project_name**: Alpha AI\n- **company_name**: Tech Growth\n- **goals**: 100 клиентов за 60 дней\n- **problem_statement**: Отсутствует ICP и отдел продаж",
+  "(10) БЛОК ФИКСАЦИИ": {
+    "run_id": "bd9bc94f152b",
+    "evia_cost_45_days": "150 000 ₽",
+    "evia_decision": "БЕРЁМ",
+    "project_name": "Alpha AI",
+    "company_name": "Tech Growth",
+    "goals": "100 клиентов за 60 дней",
+    "problem_statement": "Отсутствует ICP и отдел продаж"
+  }
+}

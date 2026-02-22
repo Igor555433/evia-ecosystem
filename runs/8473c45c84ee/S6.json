@@ -1,0 +1,17 @@
+{
+  "stage": "6",
+  "run_id": "8473c45c84ee",
+  "status": "OK",
+  "copied_from_fixation": {
+    "run_id": "8473c45c84ee",
+    "evia_cost_45_days": "150 000 ₽",
+    "evia_decision": "БЕРЁМ",
+    "project_name": "EVIA Pilot",
+    "company_name": "ACME",
+    "goals": "Сделать MVP",
+    "problem_statement": "Нет автоматизации"
+  },
+  "evia_cost_45_days": "150 000 ₽",
+  "evia_decision": "БЕРЁМ",
+  "llm_output": "Финальный результат EVIA R&D\n\nstatus: OK\nrun_id: 8473c45c84ee\nproject_name: EVIA Pilot\ncompany_name: ACME\ngoals: Сделать MVP\nproblem_statement: Нет автоматизации\nevia_decision: БЕРЁМ\nevia_cost_45_days: 150 000 ₽"
+}

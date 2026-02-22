@@ -1,0 +1,15 @@
+{
+  "stage": "0",
+  "status": "ГОТОВО",
+  "questions": [],
+  "intake": {
+    "project_name": "EVIA R&D",
+    "company_name": "EVIA Studio",
+    "goals": "20 клиентов за 90 дней",
+    "problem_statement": "Нет системного маркетинга"
+  },
+  "evidence": [],
+  "auto_web": "disabled",
+  "llm_output": "ГОТОВО",
+  "dry_run": false
+}

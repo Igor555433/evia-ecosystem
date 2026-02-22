@@ -1,0 +1,7 @@
+{
+  "stage": "2",
+  "run_id": "8473c45c84ee",
+  "evia_cost_45_days": "150 000 ₽",
+  "evia_decision": "БЕРЁМ",
+  "llm_output": "[DRY_RUN] Stage 2\nКраткий результат без внешнего LLM.\nКонтекст содержит поля: evia_cost_45_days, evia_decision, evidence, intake, previous_stage, run_id, stage."
+}

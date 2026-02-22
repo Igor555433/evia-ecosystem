@@ -1,0 +1,17 @@
+{
+  "stage": "6",
+  "run_id": "e816107dff7f",
+  "status": "OK",
+  "copied_from_fixation": {
+    "run_id": "e816107dff7f",
+    "evia_cost_45_days": "150 000 ₽",
+    "evia_decision": "БЕРЁМ",
+    "project_name": "EVIA R&D",
+    "company_name": "EVIA Studio",
+    "goals": "20 клиентов за 90 дней",
+    "problem_statement": "Нет системного маркетинга"
+  },
+  "evia_cost_45_days": "150 000 ₽",
+  "evia_decision": "БЕРЁМ",
+  "llm_output": "Финальный результат EVIA R&D\n\nstatus: OK\nrun_id: e816107dff7f\nproject_name: EVIA R&D\ncompany_name: EVIA Studio\ngoals: 20 клиентов за 90 дней\nproblem_statement: Нет системного маркетинга\nevia_decision: БЕРЁМ\nevia_cost_45_days: 150 000 ₽"
+}

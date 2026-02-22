@@ -1,0 +1,17 @@
+{
+  "stage": "6",
+  "run_id": "bd9bc94f152b",
+  "status": "OK",
+  "copied_from_fixation": {
+    "run_id": "bd9bc94f152b",
+    "evia_cost_45_days": "150 000 ₽",
+    "evia_decision": "БЕРЁМ",
+    "project_name": "Alpha AI",
+    "company_name": "Tech Growth",
+    "goals": "100 клиентов за 60 дней",
+    "problem_statement": "Отсутствует ICP и отдел продаж"
+  },
+  "evia_cost_45_days": "150 000 ₽",
+  "evia_decision": "БЕРЁМ",
+  "llm_output": "Финальный результат EVIA R&D\n\nstatus: OK\nrun_id: bd9bc94f152b\nproject_name: Alpha AI\ncompany_name: Tech Growth\ngoals: 100 клиентов за 60 дней\nproblem_statement: Отсутствует ICP и отдел продаж\nevia_decision: БЕРЁМ\nevia_cost_45_days: 150 000 ₽"
+}

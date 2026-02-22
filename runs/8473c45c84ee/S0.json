@@ -1,0 +1,15 @@
+{
+  "stage": "0",
+  "status": "ГОТОВО",
+  "questions": [],
+  "intake": {
+    "project_name": "EVIA Pilot",
+    "company_name": "ACME",
+    "goals": "Сделать MVP",
+    "problem_statement": "Нет автоматизации"
+  },
+  "evidence": [],
+  "auto_web": "disabled",
+  "llm_output": "[DRY_RUN] Stage 0\nКраткий результат без внешнего LLM.\nКонтекст содержит поля: evidence, intake, questions, run_id, status.",
+  "dry_run": true
+}
